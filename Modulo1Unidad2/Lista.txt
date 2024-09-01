@@ -2,3 +2,9 @@ galletas
 mandarinas
 papas
 lechugas
+--------
+farmacia
+--------
+librería
+--------
+carniceria
