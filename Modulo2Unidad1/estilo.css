@@ -1,0 +1,145 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #005aff;
+    background-color: coral;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(43, 226, 211);
+    text-transform: capitalize ;
+    text-decoration: underline;
+    background-color: rgb(162, 31, 250);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    color: rgb(196, 35, 35);
+}
+#foto {
+    text-align: center;
+}
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(192, 223, 13);
+    margin-left: 40px;
+}
+#datos{
+    width: 700px;
+    background-color: rgb(201, 136, 255);
+    padding: 20px;
+    box-sizing:border-box;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#series ul{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(238, 98, 243);
+    padding: 0px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#peliculas ul{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(245, 8, 213);
+    padding: 0;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-radius: 10PX;
+    border: 2PX solid rgb(0, 0, 0);
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#perfil p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+    padding: 5px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#circulo svg{
+    background-color: rgb(169, 169, 169);
+    padding: 0px;
+    padding-top: 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#circulo svg:hover{
+    background-color: khaki;
+}
+#form {
+    width: 300px;
+    
+    padding: 20px;
+    margin-left: 40%;
+    border-radius: 10px;
+    background-color: aquamarine;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 0 auto 0 auto;
+}
+#nombre {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    width: 300px;
+}
+#apellido {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+#correo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+#mensaje {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+#cajanombre{
+    margin-left: 0px;
+    width: 300px;
+    background-color: rgb(121, 251, 255);
+}
+#cajaapellido{
+    margin-left: 0px;
+    width: 300px;
+    background-color: rgb(121, 251, 255);
+}
+#cajacorreo{
+    margin-left: 0px;
+    width: 300px;
+    background-color: rgb(121, 251, 255);
+}
+#cajamensaje{
+    margin-left: 0px;
+    width: 300px;
+    background-color: rgb(121, 251, 255);
+}
+
+#cuerpo{
+    background: linear-gradient(18deg, rgba(22,189,7,1) 17%, rgba(10,230,226,1) 37%, rgba(1,214,252,1) 60%, rgba(0,135,255,1) 85%);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10%;
+
+}
+.contacto{
+    text-shadow: 2px 1px 2px rgba(0,0,0,0.77);
+}

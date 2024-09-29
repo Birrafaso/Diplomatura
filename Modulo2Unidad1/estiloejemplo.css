@@ -1,0 +1,34 @@
+/*
+font-family: "Sofadi One", system-ui;
+font-family: "Roboto", sans-serif;
+font-family: "Borel", cursive;
+*/
+
+.caja{
+    background-color: yellow;
+    width: 300px;
+    /* height: 300px; alto de la caja*/
+    padding: 10px;
+    margin: 50px;
+    background: rgb(22,189,7);
+    background: linear-gradient(18deg, rgba(22,189,7,1) 17%, rgba(10,230,226,1) 37%, rgba(1,214,252,1) 60%, rgba(0,135,255,1) 85%);
+    border-radius: 20px; 
+    border-radius: 20px 40px 20px 40px ;
+    box-shadow: 20px -50px 50px black;
+    /*eje x eje y desenfoque color de sombra*/
+    font-family: "Borel", cursive;
+
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+}
+.texto{
+    background-color: orange;
+    width: 900px;
+    column-count: 4;
+    
+}
+.texto p{
+    margin: 0;
+}
