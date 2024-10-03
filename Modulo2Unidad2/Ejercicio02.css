@@ -11,7 +11,7 @@
     width: 900px;
     height: 900px;
 	display: flex;
-    /*flex-direction: column;*/
+    flex-direction: row-reverse;
 	justify-content: center;
     
     align-items: center;
