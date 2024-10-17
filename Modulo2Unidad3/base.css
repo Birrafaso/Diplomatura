@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+h1{
+    background: #f3f0eb;
+}
+.contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+
+.contener {
+    display: flex;
+}
+
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+
+}
+.panel{
+	transition:all 0.3s ease;
+}
+.panel:hover{
+	background: #f5653d;
+	transform: scale(1.1);
+	border-radius:10px;
+}
+
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+
+main {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+.queries {
+	background: aqua;
+	transition:all 0.3s ease;
+}
+.queries:hover
+{
+	background:#53a7ea;
+	transform: scale(1.1);
+	border-radius:10px;
+
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+.paralelo{
+	transition:all 0.3s ease;
+}.paralelo:hover
+{
+	background:#d4c467;
+	transform: scale(1.1);
+	border-radius:10px;
+
+}
+@media screen and (max-width: 800px) {
+    body {
+            background-color: grey;
+        }
+    h1 {
+            text-align: center;
+            background: #eef077;
+        }
+    .contener{
+            display: flex;
+            flex-wrap: wrap;
+    }
+    nav {
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+    main{
+        width: 100%;
+        border-bottom: 2px solid black;
+        margin: 0 0 0 0px;
+    }
+    aside {
+        background-color: #1ABC9C;
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+}
